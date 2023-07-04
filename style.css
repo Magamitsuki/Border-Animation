@@ -13,8 +13,8 @@ body{
 .card{
     position: relative;
     background: #777777;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
 }
 .card span:nth-child(1){
@@ -22,7 +22,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 4px;
+    height: 6px;
     background: linear-gradient(to right,transparent,#00ffd5);
     animation: animate_one 2s linear infinite;
 }
